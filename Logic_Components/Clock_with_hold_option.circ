@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(340,280)" name="Clock"/>
+    <comp lib="0" loc="(340,350)" name="Power"/>
+    <comp lib="0" loc="(400,340)" name="Pull Resistor"/>
+    <comp lib="0" loc="(400,360)" name="Transistor"/>
+    <comp lib="0" loc="(410,260)" name="Pull Resistor"/>
+    <comp lib="0" loc="(410,280)" name="Transistor"/>
+    <comp lib="0" loc="(480,280)" name="Pull Resistor"/>
+    <comp lib="10" loc="(360,320)" name="Switch"/>
+    <comp lib="10" loc="(370,240)" name="Switch"/>
+    <comp lib="5" loc="(520,270)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="8" loc="(304,323)" name="Text">
+      <a name="text" val="Hold"/>
+    </comp>
+    <comp lib="8" loc="(306,247)" name="Text">
+      <a name="text" val="On/Off"/>
+    </comp>
+    <comp lib="8" loc="(408,198)" name="Text">
+      <a name="text" val="Clock"/>
+    </comp>
+    <wire from="(250,200)" to="(250,390)"/>
+    <wire from="(250,200)" to="(560,200)"/>
+    <wire from="(250,390)" to="(560,390)"/>
+    <wire from="(340,280)" to="(350,280)"/>
+    <wire from="(340,320)" to="(340,350)"/>
+    <wire from="(340,350)" to="(340,360)"/>
+    <wire from="(340,360)" to="(360,360)"/>
+    <wire from="(350,240)" to="(350,280)"/>
+    <wire from="(350,280)" to="(370,280)"/>
+    <wire from="(360,320)" to="(380,320)"/>
+    <wire from="(370,240)" to="(390,240)"/>
+    <wire from="(380,320)" to="(380,340)"/>
+    <wire from="(380,340)" to="(400,340)"/>
+    <wire from="(390,240)" to="(390,260)"/>
+    <wire from="(390,260)" to="(410,260)"/>
+    <wire from="(400,360)" to="(480,360)"/>
+    <wire from="(410,280)" to="(480,280)"/>
+    <wire from="(480,280)" to="(480,360)"/>
+    <wire from="(480,280)" to="(520,280)"/>
+    <wire from="(520,270)" to="(520,280)"/>
+    <wire from="(560,200)" to="(560,390)"/>
+  </circuit>
+</project>
