@@ -145,13 +145,13 @@
     </comp>
     <comp lib="0" loc="(390,170)" name="Splitter">
       <a name="appear" val="right"/>
-      <a name="facing" val="west"/>
+      <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
     <comp lib="0" loc="(390,170)" name="Splitter">
       <a name="appear" val="right"/>
-      <a name="facing" val="north"/>
+      <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
@@ -198,6 +198,10 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
+    <comp lib="0" loc="(540,590)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="0" loc="(790,1270)" name="Splitter">
       <a name="fanout" val="32"/>
       <a name="incoming" val="32"/>
@@ -221,6 +225,7 @@
       <a name="incoming" val="8"/>
       <a name="spacing" val="2"/>
     </comp>
+    <comp lib="0" loc="(960,370)" name="Power"/>
     <comp lib="0" loc="(980,250)" name="Power"/>
     <comp lib="4" loc="(540,610)" name="ROM">
       <a name="appearance" val="logisim_evolution"/>
@@ -337,6 +342,7 @@ a49980 a49990 a492c0 a492f9 a492a4 a492b0 a49299 a49292
     <wire from="(900,250)" to="(900,620)"/>
     <wire from="(910,240)" to="(910,790)"/>
     <wire from="(920,230)" to="(920,950)"/>
+    <wire from="(960,370)" to="(960,380)"/>
     <wire from="(960,380)" to="(1000,380)"/>
     <wire from="(980,250)" to="(980,260)"/>
     <wire from="(980,260)" to="(1000,260)"/>
